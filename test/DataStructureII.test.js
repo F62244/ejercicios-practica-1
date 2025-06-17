@@ -82,7 +82,7 @@ describe('Lista Enlazada Simple', () => {
   test('insert agrega en posición específica', () => {
     lista.push(1);
     lista.push(3);
-    lista.insert(2, 2);
+    lista.insert(2, 1);
     expect(lista.point.next.data).toBe(2);
   });
 
